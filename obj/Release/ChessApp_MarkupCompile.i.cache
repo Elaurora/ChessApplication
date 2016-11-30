@@ -10,11 +10,11 @@ none
 false
 TRACE
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\App.xaml
-11151548125
+31926674685
 
-10-844310902
+12-2100340501
 131478842535
-MainWindow.xaml;
+GameCompletionWindow.xaml;MainWindow.xaml;PawnPromotionWindow.xaml;
 
 False
 

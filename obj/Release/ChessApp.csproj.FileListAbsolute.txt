@@ -1,8 +1,13 @@
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.exe.config
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.exe
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.pdb
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.csprojResolveAssemblyReference.cache
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\GameCompletionWindow.baml
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\MainWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\PawnPromotionWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\GameCompletionWindow.g.cs
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\MainWindow.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\PawnPromotionWindow.g.cs
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\App.g.cs
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp_MarkupCompile.cache
 C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.g.resources
