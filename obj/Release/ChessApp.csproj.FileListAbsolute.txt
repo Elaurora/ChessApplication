@@ -1,0 +1,12 @@
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.exe.config
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.exe
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Release\ChessApp.pdb
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\MainWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\MainWindow.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\App.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp_MarkupCompile.cache
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.g.resources
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.Properties.Resources.resources
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.csproj.GenerateResource.Cache
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.exe
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Release\ChessApp.pdb

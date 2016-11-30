@@ -1,0 +1,151 @@
+﻿<Window x:Class="ChessApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="697" Width="674"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <SolidColorBrush x:Key="LightSquareBrush" Color="Beige"/>
+        <SolidColorBrush x:Key="DarkSquareBrush" Color="DarkRed"/>
+    </Window.Resources>
+    <Grid Margin="-1,0,1,0">
+
+        <Button x:Name="A8_Button" x:Uid="A8" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B8_Button" x:Uid="B8" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C8_Button" x:Uid="C8" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D8_Button" x:Uid="D8" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E8_Button" x:Uid="E8" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F8_Button" x:Uid="F8" HorizontalAlignment="Left" Margin="410,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G8_Button" x:Uid="G8" HorizontalAlignment="Left" Margin="490,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H8_Button" x:Uid="H8" HorizontalAlignment="Left" Margin="570,10,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A7_Button" x:Uid="A7" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B7_Button" x:Uid="B7" HorizontalAlignment="Left" Margin="90,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C7_Button" x:Uid="C7" HorizontalAlignment="Left" Margin="170,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D7_Button" x:Uid="D7" HorizontalAlignment="Left" Margin="250,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E7_Button" x:Uid="E7" HorizontalAlignment="Left" Margin="330,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F7_Button" x:Uid="F7" HorizontalAlignment="Left" Margin="410,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G7_Button" x:Uid="G7" HorizontalAlignment="Left" Margin="490,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H7_Button" x:Uid="H7" HorizontalAlignment="Left" Margin="570,90,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A6_Button" x:Uid="A6" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B6_Button" x:Uid="B6" HorizontalAlignment="Left" Margin="90,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C6_Button" x:Uid="C6" HorizontalAlignment="Left" Margin="170,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D6_Button" x:Uid="D6" HorizontalAlignment="Left" Margin="250,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E6_Button" x:Uid="E6" HorizontalAlignment="Left" Margin="330,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F6_Button" x:Uid="F6" HorizontalAlignment="Left" Margin="410,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G6_Button" x:Uid="G6" HorizontalAlignment="Left" Margin="490,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H6_Button" x:Uid="H6" HorizontalAlignment="Left" Margin="570,170,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A5_Button" x:Uid="A5" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B5_Button" x:Uid="B5" HorizontalAlignment="Left" Margin="90,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C5_Button" x:Uid="C5" HorizontalAlignment="Left" Margin="170,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D5_Button" x:Uid="D5" HorizontalAlignment="Left" Margin="250,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E5_Button" x:Uid="E5" HorizontalAlignment="Left" Margin="330,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F5_Button" x:Uid="F5" HorizontalAlignment="Left" Margin="410,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G5_Button" x:Uid="G5" HorizontalAlignment="Left" Margin="490,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H5_Button" x:Uid="H5" HorizontalAlignment="Left" Margin="570,250,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A4_Button" x:Uid="A4" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B4_Button" x:Uid="B4" HorizontalAlignment="Left" Margin="90,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C4_Button" x:Uid="C4" HorizontalAlignment="Left" Margin="170,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D4_Button" x:Uid="D4" HorizontalAlignment="Left" Margin="250,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E4_Button" x:Uid="E4" HorizontalAlignment="Left" Margin="330,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F4_Button" x:Uid="F4" HorizontalAlignment="Left" Margin="410,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G4_Button" x:Uid="G4" HorizontalAlignment="Left" Margin="490,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H4_Button" x:Uid="H4" HorizontalAlignment="Left" Margin="570,330,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A3_Button" x:Uid="A3" HorizontalAlignment="Left" Margin="10,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B3_Button" x:Uid="B3" HorizontalAlignment="Left" Margin="90,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C3_Button" x:Uid="C3" HorizontalAlignment="Left" Margin="170,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D3_Button" x:Uid="D3" HorizontalAlignment="Left" Margin="250,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E3_Button" x:Uid="E3" HorizontalAlignment="Left" Margin="330,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F3_Button" x:Uid="F3" HorizontalAlignment="Left" Margin="410,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G3_Button" x:Uid="G3" HorizontalAlignment="Left" Margin="490,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H3_Button" x:Uid="H3" HorizontalAlignment="Left" Margin="570,410,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+
+
+        <Button x:Name="A2_Button" x:Uid="A2" HorizontalAlignment="Left" Margin="10,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B2_Button" x:Uid="B2" HorizontalAlignment="Left" Margin="90,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C2_Button" x:Uid="C2" HorizontalAlignment="Left" Margin="170,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D2_Button" x:Uid="D2" HorizontalAlignment="Left" Margin="250,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E2_Button" x:Uid="E2" HorizontalAlignment="Left" Margin="330,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F2_Button" x:Uid="F2" HorizontalAlignment="Left" Margin="410,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G2_Button" x:Uid="G2" HorizontalAlignment="Left" Margin="490,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H2_Button" x:Uid="H2" HorizontalAlignment="Left" Margin="570,490,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+
+        <Button x:Name="A1_Button" x:Uid="A1" HorizontalAlignment="Left" Margin="10,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="B1_Button" x:Uid="B1" HorizontalAlignment="Left" Margin="90,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="C1_Button" x:Uid="C1" HorizontalAlignment="Left" Margin="170,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="D1_Button" x:Uid="D1" HorizontalAlignment="Left" Margin="250,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="E1_Button" x:Uid="E1" HorizontalAlignment="Left" Margin="330,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="F1_Button" x:Uid="F1" HorizontalAlignment="Left" Margin="410,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="G1_Button" x:Uid="G1" HorizontalAlignment="Left" Margin="490,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource DarkSquareBrush}" Click="Square_Pressed"/>
+        <Button x:Name="H1_Button" x:Uid="H1" HorizontalAlignment="Left" Margin="570,570,0,0" VerticalAlignment="Top" Width="80" Height="80"
+                Background="{StaticResource LightSquareBrush}" Click="Square_Pressed"/>
+    </Grid>
+
+
+</Window>

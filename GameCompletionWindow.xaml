@@ -1,0 +1,16 @@
+﻿<Window x:Class="ChessApp.GameCompletionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameCompletionWindow" Height="222.18" Width="720.677"
+        Background="White" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="100"  />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="A8_Button" x:Uid="A8" HorizontalAlignment="Left" Margin="322,155,0,0" VerticalAlignment="Top" Width="90" Height="27"
+                Content="Play Again" Click="pressPlayAgain"/>
+        <TextBlock x:Name="Text" Margin="10,10,10,51" TextAlignment="Center"/>
+    </Grid>
+</Window>

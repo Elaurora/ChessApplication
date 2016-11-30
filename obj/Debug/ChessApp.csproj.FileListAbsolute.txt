@@ -1,0 +1,17 @@
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Debug\ChessApp.exe.config
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Debug\ChessApp.exe
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\bin\Debug\ChessApp.pdb
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\GameCompletionWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\MainWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\PawnPromotionWindow.baml
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\GameCompletionWindow.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\MainWindow.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\PawnPromotionWindow.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\App.g.cs
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp_MarkupCompile.cache
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.g.resources
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.Properties.Resources.resources
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.csproj.GenerateResource.Cache
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.exe
+C:\Users\joshua\Documents\Visual Studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.pdb
+C:\Users\joshua\documents\visual studio 2013\Projects\ChessApp\ChessApp\obj\Debug\ChessApp.csprojResolveAssemblyReference.cache
